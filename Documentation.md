@@ -1,262 +1,206 @@
-College Placement Management System
-Project Documentation
-Skill Development Web Application Project
-1. Introduction
+COLLEGE PLACEMENT MANAGEMENT SYSTEM
+PROJECT DOCUMENTATION
+SKILL DEVELOPMENT WEB APPLICATION PROJECT
+1. INTRODUCTION
 
-The College Placement Management System is a simple web-based application developed as part of the Skill Development Web Application Project.
+The College Placement Management System is a web-based application developed to provide students with placement-related information in one place.
 
-The application provides students with easy access to placement-related information. It includes pages for student login, registration, company details, and placement drive information.
+The application includes student login, student registration, company information and placement drive details. The project is developed using HTML, CSS and JavaScript.
 
-The project is developed using HTML, CSS and JavaScript and provides a simple and user-friendly interface.
+2. PROBLEM STATEMENT
 
-2. Problem Statement
+Students receive placement information through different sources, making it difficult to access all the information in one place.
 
-Students often receive placement information through different sources such as notices, messages and announcements. This can make it difficult to access company and placement information in one place.
+The College Placement Management System provides a simple platform where students can view company details and placement drive information easily.
 
-The proposed College Placement Management System provides a simple web application where students can view company details, placement drives and registration-related information from a single platform.
+3. OBJECTIVES
 
-3. Objectives
+The main objectives of the project are:
 
-The main objectives of the system are:
+• To provide placement information to students.
+• To display details of recruiting companies.
+• To provide placement drive information.
+• To provide student login and registration pages.
+• To create a simple and user-friendly web application.
+• To apply HTML, CSS and JavaScript concepts in a practical project.
 
-To provide placement-related information to students.
-To display details of recruiting companies.
-To provide information about placement drives.
-To provide a student registration form.
-To provide a student login interface.
-To make placement information easy to access.
-To develop a simple and user-friendly web application.
-To apply HTML, CSS and JavaScript concepts in a practical project.
-4. Scope of the Project
+4. SCOPE OF THE PROJECT
 
-The system is designed to provide students with basic college placement information through a web interface.
-
-Student Side
+The system is designed mainly for students to access placement-related information.
 
 Students can:
 
-View the home page.
-Access the login page.
-Register using the registration form.
-View recruiting company details.
-View placement drive information.
-Navigate between different sections of the application.
-Administrator Side
+• View the home page.
+• Register and access the login page.
+• View company information.
+• View placement drive details.
+• Navigate between different pages.
 
-The current version of the project does not include a separate administrator module. Administrative features can be added in future versions.
+The current version does not contain an administrator module or database.
 
-5. Users of the System
+5. FUNCTIONAL REQUIREMENTS
+Student Registration
 
-The current system is mainly designed for:
+The registration page allows students to enter their required details.
 
-5.1 Student
+Student Login
 
-Students can use the application to:
+The login page provides an interface for students to enter their login details.
 
-View placement information.
-View company details.
-View placement drive information.
-Access registration and login pages.
-5.2 Administrator
+Company Information
 
-An administrator module is not implemented in the current version. It can be included as a future enhancement.
+The system displays information about recruiting companies and available job roles.
 
-6. Functional Requirements
-6.1 Student Registration
+Placement Information
 
-The system provides a registration form where students can enter their required details.
+Students can view details about available placement drives.
 
-6.2 Student Login
+Navigation
 
-The system provides a login page for students to enter their login details.
+Users can navigate between the different pages using links and buttons.
 
-6.3 Company Information
-
-The application displays information about recruiting companies and available job roles.
-
-6.4 Placement Drive Information
-
-Students can view information about placement drives and related details.
-
-6.5 Navigation
-
-Users can navigate between the different pages of the application using the provided links and buttons.
-
-6.6 Form Interaction
-
-JavaScript is used to provide basic interactions for the forms.
-
-7. Non-Functional Requirements
-Performance
-
-The application should load the pages quickly and respond smoothly to basic user interactions.
-
+6. NON-FUNCTIONAL REQUIREMENTS
 Usability
 
-The application should have a simple and user-friendly interface.
+The application has a simple and user-friendly interface.
 
-Reliability
+Performance
 
-The web pages should function correctly and provide the required placement information.
-
-Maintainability
-
-The project is organized into separate HTML, CSS and JavaScript files, making it easier to modify and maintain.
+The web pages should load quickly and respond smoothly to user interactions.
 
 Compatibility
 
-The application can be accessed through modern web browsers such as Google Chrome, Microsoft Edge and Firefox.
+The application can be accessed using modern web browsers such as Google Chrome, Microsoft Edge and Firefox.
 
-8. Technologies Used
-Component	Technology
-Web Page Structure	HTML
-Styling	CSS
-Programming / Interaction	JavaScript
-Code Editor	Visual Studio Code
-Version Control	Git
-Repository	GitHub
-9. System Architecture
+Maintainability
 
-The current project follows a simple client-side web application architecture.
+The project uses separate HTML, CSS and JavaScript files, making it easier to modify and maintain.
 
-          USER
-            |
-            ↓
-      Web Browser
-            |
-            ↓
-     HTML Web Pages
-            |
-            ↓
-        CSS Styling
-            |
-            ↓
-    JavaScript Interaction
-Frontend
+7. TECHNOLOGIES USED
 
-HTML is used to create the structure of the web pages.
+HTML: Used to create the structure of web pages.
 
-Styling
+CSS: Used for styling, layout, colors and overall design.
 
-CSS is used to design the pages, including layout, colors, fonts, buttons and other visual elements.
+JavaScript: Used to provide basic interactions and functionality.
+
+Visual Studio Code: Used for developing and editing the project files.
+
+GitHub: Used for storing and managing the project source code.
+
+8. SYSTEM ARCHITECTURE
+
+The project follows a simple client-side web application architecture.
+
+User
+
+↓
+
+Web Browser
+
+↓
+
+HTML
+
+↓
+
+CSS
+
+↓
 
 JavaScript
 
-JavaScript is used to provide basic form interactions and client-side functionality.
+The user interacts with the website through a web browser. HTML creates the page structure, CSS provides the design, and JavaScript provides basic functionality.
 
-10. Application Flow
-Student Flow
-       Open Website
-            ↓
-        Home Page
-            ↓
-    ┌───────┴────────┐
-    ↓                ↓
-  Login          Registration
-    ↓                ↓
-  Login Page     Register Page
-    └───────┬────────┘
-            ↓
-    View Placement
-       Information
-            ↓
-    Company Details
-            ↓
-    Placement Drives
-11. Main Modules
-11.1 Home Page Module
+9. MAIN MODULES
+Home Page Module
 
-The home page provides an introduction to the College Placement Management System and provides navigation to other pages.
+Provides an introduction to the placement management system and navigation to other pages.
 
-11.2 Student Login Module
+Student Login Module
 
-The login page provides a basic interface for students to enter their login credentials.
+Provides a login interface for students.
 
-11.3 Student Registration Module
+Student Registration Module
 
-The registration page provides a form for students to enter their details.
+Provides a form for student registration.
 
-11.4 Company Module
+Company Module
 
-The company page displays information about recruiting companies and their job roles.
+Displays information about recruiting companies and job roles.
 
-11.5 Placement Drive Module
+Placement Module
 
-The placement page displays placement drive information and related details.
+Displays information about placement drives.
 
-11.6 JavaScript Interaction Module
+10. PROJECT STRUCTURE
 
-JavaScript provides basic interactions and form-related functionality within the application.
+CollegePlacementManagementSystem
 
-12. Project Structure
-CollegePlacementManagementSystem/
-│
-├── index.html
-├── login.html
-├── register.html
-├── companies.html
-├── placements.html
-├── style.css
-├── script.js
-├── Documentation.md
-└── README.md
+index.html
 
-The repository currently contains these main application files, along with the README and documentation files.
+login.html
 
-13. Features
+register.html
 
-The main features of the application are:
+companies.html
 
-Simple and user-friendly interface.
-Home page with project information.
-Student login interface.
-Student registration form.
-Recruiting company information.
-Placement drive information.
-Navigation between different web pages.
-Basic JavaScript form interactions.
+placements.html
 
-These features are also reflected in the repository's current README.
+style.css
 
-14. Testing
-Test Case	Expected Result	Result
-Open Home Page	Home page should open successfully	Pass
-Open Login Page	Login page should open	Pass
-Open Registration Page	Registration page should open	Pass
-View Companies	Company details should be displayed	Pass
-View Placements	Placement information should be displayed	Pass
-Navigation	Links should navigate to the required pages	Pass
-Form Interaction	Basic form interaction should work	Pass
-15. Advantages
-Easy to use.
-Simple interface.
-Placement information is organized in different pages.
-Easy to navigate.
-Lightweight web application.
-Easy to modify and extend.
-16. Limitations
-No database is connected.
-No real user authentication is implemented.
-No administrator dashboard is currently available.
-No online application tracking is implemented.
-The current version mainly provides information and basic form interaction.
-17. Future Scope
+script.js
 
-The project can be enhanced in the future by adding:
+README.md
 
-Database connectivity.
-Real student authentication.
-Administrator dashboard.
-Online application for placement drives.
-Application status tracking.
-Eligibility checking.
-Company management.
-Student profile management.
-Backend using technologies such as Node.js/Django.
-18. Conclusion
+Documentation.md
 
-The College Placement Management System successfully demonstrates a basic web application for providing college placement information.
+11. FEATURES
 
-The project uses HTML, CSS and JavaScript to create a simple, interactive and user-friendly interface. It provides pages for student login, registration, company information and placement drives.
+• Simple and user-friendly interface.
+• Student login page.
+• Student registration page.
+• Company information.
+• Placement drive information.
+• Easy navigation between pages.
+• Basic JavaScript interactions.
 
-The project can be further developed by adding a database, backend, authentication and advanced placement management features.
+12. TESTING
+
+The application was tested by opening each page and checking the navigation and basic functionality.
+
+Home Page: Successfully opened.
+
+Login Page: Successfully opened.
+
+Registration Page: Successfully opened.
+
+Companies Page: Company information displayed correctly.
+
+Placements Page: Placement information displayed correctly.
+
+Navigation: Links worked correctly.
+
+13. LIMITATIONS
+
+• The current version does not use a database.
+• Real user authentication is not implemented.
+• No administrator dashboard is available.
+• Online placement application tracking is not implemented.
+
+14. FUTURE SCOPE
+
+The project can be improved in the future by adding:
+
+• Database connectivity.
+• Real user authentication.
+• Administrator dashboard.
+• Online application for placement drives.
+• Application status tracking.
+• Student profile management.
+
+15. CONCLUSION
+
+The College Placement Management System provides a simple web-based platform for accessing college placement information.
+
+The project demonstrates the practical use of HTML, CSS and JavaScript to create a user-friendly web application. It can be further enhanced by adding a backend, database and advanced placement management features.
